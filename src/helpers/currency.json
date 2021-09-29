@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "type": "USD",
+        "pair":"HITBTC/IOTA-USD",
+        "buyPrice": "0.33063",
+        "sellExchange": "BINANCE/IOTA-USDT",
+        "sellPrise": "0.334",
+        "tradeAmount": "353.3",
+        "arb": "1.01%[0.15%]",
+        "profit": "1",
+        "fees": "0.2"
+    },
+    { 
+        "id": "2",
+        "type": "USD",
+        "pair":"BITFINEX/ZEC-USD",
+        "buyPrice": "65.50671",
+        "sellExchange": "KRAKEN/ZEC-USD",
+        "sellPrise": "69.57002",
+        "tradeAmount": "2.1449",
+        "arb": "0.27%[0.15%]",
+        "profit": "0.2",
+        "fees": "0.2"
+    }
+]

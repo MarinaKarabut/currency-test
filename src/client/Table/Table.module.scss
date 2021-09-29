@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+  background: #ffffff;
+  border-collapse: collapse;
+  border-radius: 0 0 10px 10px;
+  color: #000000;
+}
+
+.tableHade {
+  padding: 10px 10px 25px 10px;
+  border-bottom: 2px solid rgb(192, 192, 192, 0.5);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #6e6e6e;
+}
+
+.tableBody {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  padding: 15px 10px 20px 10px;
+  text-align: center;
+  color: #000000;
+}
+
+.pair {
+  color: #0b8968;
+}
+
+.sell {
+  color: #a30a2e;
+}

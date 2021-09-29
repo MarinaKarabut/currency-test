@@ -1,0 +1,30 @@
+.btn {
+  width: 110px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1fffb3;
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 0;
+  &:hover,
+  &:focus {
+    background-color: #00e698;
+    color: #ffffff;
+  }
+}
+
+.user {
+  fill: #1fffb3;
+  width: 28px;
+  margin-right: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout {
+  margin-left: 6px;
+}
