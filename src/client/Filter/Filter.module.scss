@@ -1,19 +1,19 @@
-.formWrapper {
-  border-radius: 10px 10px 10px 10px;
-  padding: 0px 15px 20px 15px;
-  margin-bottom: 10px;
-  background: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
-}
 .form {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  &Wrapper {
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 15px 20px 15px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  }
 }
 
 .btnWrapper {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .resetBtn {

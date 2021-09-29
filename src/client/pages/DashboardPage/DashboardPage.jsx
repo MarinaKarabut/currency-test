@@ -6,15 +6,13 @@ import Table from '../../Table'
 import Instances from '../../Instances'
 import Section from '../../../shared/components/Section'
 import currency from '../../../helpers/currency'
-import Loader from '../../../shared/components/Loader'
-// import DashboardSkeleton from '../../components/DashboardSkeleton'
+import DashboardSkeleton from '../../skeletons/DashboardSkeleton'
 
 import styles from './DashboardPage.module.scss'
 
 
 const DashboardPage = () => {
     const [cryptoCurrency, setCryptoCurrency] = useState([])
-    console.log(cryptoCurrency);
 
     const [selectedType, setSelectedType] = useState()
 
@@ -32,17 +30,13 @@ const DashboardPage = () => {
 
 
     const handleChange = (type) => {
-        setLoading(true)
-        const timing = setTimeout(() => {
-            setLoading(false)
             setSelectedType(type)
-        }, 2000)
-        return () => clearTimeout(timing)
     }
+
 
     return (
         <Section>
-            {loading && <Loader/>}
+            {loading && <DashboardSkeleton/>}
             {!loading &&
                 <div className={styles.container}>
                     <div className={styles.wrapper}>
