@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 import Filter from '../../Filter'
 import DashboardProfitCurrency from '../../DashboardProfitCurrency'
@@ -20,11 +20,11 @@ const DashboardPage = () => {
         <Section>
             <div className={styles.container}>
                 <div className={styles.wrapper}>
-                    <Filter />
+                    <Filter onChange={ handleChange }/>
                     <Table items={currency} type={selectedType}/>
                 </div>
                 <div>
-                    <DashboardProfitCurrency onChange={handleChange}/>
+                    <DashboardProfitCurrency  onChange={handleChange}/>
                     <Instances items={currency} type={selectedType}/>
                 </div>
             </div>

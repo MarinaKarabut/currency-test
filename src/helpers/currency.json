@@ -22,5 +22,66 @@
         "arb": "0.27%[0.15%]",
         "profit": "0.2",
         "fees": "0.2"
+    },
+    { 
+        "id": "3",
+        "type": "USD",
+        "pair":"BITFINEX/SOL-USD",
+        "buyPrice": "137.94",
+        "sellExchange": "KRAKEN/SOL-USD",
+        "sellPrise": "69.57002",
+        "tradeAmount": "2.1449",
+        "arb": "0.27%[0.15%]",
+        "profit": "0.2",
+        "fees": "0.2"
+    },
+    { 
+        "id": "4",
+        "type": "USD",
+        "pair":"BITFINEX/FIL-USD",
+        "buyPrice": "57.257",
+        "sellExchange": "KRAKEN/FIL-USD",
+        "sellPrise": "69.57002",
+        "tradeAmount": "2.1449",
+        "arb": "0.27%[0.15%]",
+        "profit": "0.2",
+        "fees": "0.2"
+    },
+    { 
+        "id": "5",
+        "type": "EUR",
+        "pair":"BITFINEX/BTC-EUR",
+        "buyPrice": "36.272",
+        "sellExchange": "KRAKEN/BTC-EUR",
+        "sellPrise": "69.57002",
+        "tradeAmount": "2.1449",
+        "arb": "0.27%[0.15%]",
+        "profit": "0.2",
+        "fees": "0.2"
+    },
+    { 
+        "id": "6",
+        "type": "EUR",
+        "pair":"BITFINEX/TRX-EUR",
+        "buyPrice": "0.073670",
+        "sellExchange": "KRAKEN/TRX-EUR",
+        "sellPrise": "69.57002",
+        "tradeAmount": "2.1449",
+        "arb": "0.27%[0.15%]",
+        "profit": "0.2",
+        "fees": "0.2"
+    },
+    { 
+        "id": "6",
+        "type": "UAN",
+        "pair":"BITFINEX/TRX-UAN",
+        "buyPrice": "0.073670",
+        "sellExchange": "KRAKEN/TRX-UAN",
+        "sellPrise": "69.57002",
+        "tradeAmount": "2.1449",
+        "arb": "0.27%[0.15%]",
+        "profit": "0.2",
+        "fees": "0.2"
     }
+
 ]
