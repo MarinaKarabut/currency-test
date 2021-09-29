@@ -37,7 +37,7 @@ const Table = ({ items, type}) => {
     }
 
     const selectedElement = selectedArray(array)
-    console.log(selectedElement);
+
 
     return (
         <table className={styles.table}>

@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-import { v4 } from 'uuid';
 import { options } from '../../helpers/options'
 
 import styles from './DashboardProfitCurrency.module.scss'
