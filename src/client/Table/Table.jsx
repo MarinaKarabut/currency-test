@@ -19,7 +19,6 @@ const Table = ({ items, type}) => {
 
 
     const array = filteredData === []? selectedItems : filteredData
-    console.log(array);
 
     function selectedArray(array){
         const selectedEl = array.map(item => (
