@@ -7,7 +7,7 @@ function LoaderComponent({ onLoad }) {
     <div className={styles.wrapper}>
       <Loader
         type="ThreeDots"
-        color='#FFBC33'
+        color='#1fffb3'
         height={100}
         width={100}
         timeout={3000}
