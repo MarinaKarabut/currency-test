@@ -8,6 +8,7 @@ import Section from '../../../shared/components/Section'
 import currency from '../../../helpers/currency'
 import DashboardSkeleton from '../../skeletons/DashboardSkeleton'
 
+
 import styles from './DashboardPage.module.scss'
 
 
@@ -17,6 +18,9 @@ const DashboardPage = () => {
     const [selectedType, setSelectedType] = useState()
 
     const [loading, setLoading] = useState(false)
+
+    const [query, setQuery] = useState('')
+    
     
     useEffect(() => {
         setLoading(true)
@@ -33,6 +37,10 @@ const DashboardPage = () => {
             setSelectedType(type)
     }
 
+    const onChangeQuery = searchQuery => {
+        setQuery(searchQuery)
+    }
+
 
     return (
         <Section>
@@ -40,12 +48,12 @@ const DashboardPage = () => {
             {!loading &&
                 <div className={styles.container}>
                     <div className={styles.wrapper}>
-                        <Filter onChange={handleChange} />
-                        <Table items={cryptoCurrency} type={selectedType} />
+                    <Filter onSubmit={onChangeQuery} />
+                    <Table items={cryptoCurrency} type={selectedType} query={query}/>
                     </div>
                     <div>
                         <DashboardProfitCurrency onChange={handleChange} />
-                        <Instances items={cryptoCurrency} type={selectedType} />
+                        <Instances items={cryptoCurrency} type={selectedType}/>
                     </div>
                 </div>
             }
@@ -55,3 +63,6 @@ const DashboardPage = () => {
 };
 
 export default DashboardPage;
+
+
+
